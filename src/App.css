@@ -1,0 +1,10 @@
+.section-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(0, 0, 0) ;     
+    text-align: center;
+    margin: 40px 0 25px;
+}
+*{
+  font-family: 'roboto' ;
+}

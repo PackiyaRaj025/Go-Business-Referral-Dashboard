@@ -1,0 +1,60 @@
+
+.share-referral {
+    margin-bottom: 40px;
+}
+
+.copy-group label{
+    color:white;
+    font-weight:600;
+}
+
+.copy-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #374151;
+}
+
+.copy-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.copy-box input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    background: #f9fafb;
+    color: rgb(76, 76, 76);
+}
+
+.copy-box button {
+    background: #2563eb;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.copy-box button:hover {
+    background: #1d4ed8;
+}
+
+
+/* Mobile */
+@media (max-width: 576px) {
+
+    .copy-box {
+        flex-direction: column;
+    }
+
+    .copy-box button {
+        width: 100%;
+    }
+
+}

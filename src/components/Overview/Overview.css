@@ -1,0 +1,62 @@
+
+.overview-section{
+    margin-bottom:40px;
+}
+
+.section-title{
+    font-size:24px;
+    margin-bottom:20px;
+    color:#1a232f;
+}
+
+.overview-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.overview-card{
+    background:#ffffff;
+    border-radius:12px;
+    padding:24px;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+    transition:transform .3s;
+}
+
+.overview-card:hover{
+    transform:translateY(-4px);
+}
+
+.metric-title{
+    font-size:16px;
+    color:#6b7280;
+    margin-bottom:12px;
+}
+
+.metric-value{
+    font-size:32px;
+    font-weight:bold;
+    color:#2563eb;
+}
+
+/* Tab */
+@media(max-width:992px){
+
+    .overview-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+
+/* Mobile */
+@media(max-width:576px){
+
+    .overview-grid{
+        grid-template-columns:1fr;
+    }
+    .metric-value{
+        font-size:28px;
+    }
+
+}

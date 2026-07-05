@@ -1,0 +1,62 @@
+.notfound-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #f4f7fb;
+}
+
+.notfound-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,.08);
+    max-width: 420px;
+    width: 100%;
+}
+
+.notfound-card h1 {
+    font-size: 72px;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.notfound-card h2 {
+    margin-bottom: 16px;
+    color: #1f2937;
+}
+
+.notfound-card p {
+    color: #6b7280;
+    margin-bottom: 30px;
+
+}
+
+.home-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background .3s;
+}
+
+.home-btn:hover {
+    background: #1d4ed8;
+}
+
+
+@media(max-width:576px){
+
+    .notfound-card{
+        padding:30px;
+    }
+
+    .notfound-card h1{
+        font-size:56px;
+    }
+
+}

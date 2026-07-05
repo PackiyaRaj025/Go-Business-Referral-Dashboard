@@ -1,0 +1,137 @@
+/* Section */
+
+.referral-table-section {
+    margin-bottom: 40px;
+}
+
+/* Scroll on mobile */
+
+.table-container {
+    overflow-x: auto;
+}
+.section-title{
+    text-align:center;
+    font-size:32px;
+    font-weight:700;
+    color:#ffffff;
+    margin-bottom:25px;
+}
+
+.section-title{
+    color:#000000 !important;
+    font-size:32px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* Table */
+
+.referral-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,.08);
+}
+
+/* Header */
+.referral-table th{
+    background:#2563eb;
+    color:#ffffff;
+    font-size:16px;
+    font-weight:600;
+    padding:16px;
+}
+
+/* Zebra rows */
+
+.referral-table tbody tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+/* Hover */
+
+.referral-table tbody tr:hover {
+    background: #eff6ff;
+}
+
+/* Status Badge */
+
+.status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Active */
+
+.status.active {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+/* Pending */
+
+.status.pending {
+    background: #fef3c7;
+    color: #b45309;
+}
+
+/* Rejected */
+
+.status.rejected {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+/* View */
+
+.view-link {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 600;
+}
+
+.view-link:hover {
+    text-decoration: underline;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.referral-table th,
+.referral-table td{
+
+    padding:12px;
+
+}
+
+}
+
+.referral-table th,
+.referral-table td{
+    padding:16px;
+    vertical-align:middle;
+}
+
+.referral-table th:nth-child(1),
+.referral-table td:nth-child(1){
+    text-align:left;
+}
+
+.referral-table th:nth-child(2),
+.referral-table td:nth-child(2){
+    text-align:center;
+}
+
+.referral-table th:nth-child(3),
+.referral-table td:nth-child(3){
+    text-align:center;
+}
+.referral-table td{
+    border-bottom:1px solid #e5e7eb;
+}
