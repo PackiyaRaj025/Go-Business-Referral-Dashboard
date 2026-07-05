@@ -8,7 +8,7 @@ A modern, responsive **Referral Dashboard** built using **React + Vite**. The ap
 
 ## 🌐 Live Demo
 
-🔗 **Live URL:** [https://your-vercel-link.vercel.app](https://go-business-referral-dashboard-dusky.vercel.app/login)
+🔗 **Live URL:** [https://your-vercel-link.vercel.app](go-business-referral-dashboard-henna.vercel.app)
 
 ---
 
